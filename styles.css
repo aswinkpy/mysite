@@ -1,10 +1,10 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #00ff00;
-    background-image: url('cyber-background.jpg');
+    background-image: url('C:\Users\ajaji\Downloads\cyber-background.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-color: #000000; /* Fallback color */
+    background-color:  /* Fallback color */
     margin: 0;
     padding: 0;
     display: flex;
