@@ -1,7 +1,10 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #00ff00;
-    background-color: #000000;
+    background-image: url('cyber-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000000; /* Fallback color */
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,7 +14,7 @@ body {
 }
 
 header {
-    background: #111111;
+    background: rgba(17, 17, 17, 0.8); /* Add some transparency */
     padding: 20px;
     text-align: center;
     width: 100%;
@@ -22,7 +25,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background: #222222;
+    background: rgba(34, 34, 34, 0.8); /* Add some transparency */
     width: 100%;
 }
 
@@ -46,13 +49,13 @@ section {
     padding: 20px;
     margin: 20px 0;
     width: 80%;
-    background: #333333;
+    background: rgba(51, 51, 51, 0.8); /* Add some transparency */
     border-radius: 10px;
     box-shadow: 0 0 10px #00ff00;
 }
 
 footer {
-    background: #111111;
+    background: rgba(17, 17, 17, 0.8); /* Add some transparency */
     color: #00ff00;
     text-align: center;
     padding: 10px;
